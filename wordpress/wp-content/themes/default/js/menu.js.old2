@@ -1,0 +1,49 @@
+jQuery(document).ready(function($) {
+  var menuH = ($('#header').outerHeight()) + 2;
+  $("#content").css('margin-top', menuH + "px");
+
+  if ($(window).width() > 1160) {
+    $("#header").css('margin-top', ('-' + menuH + "px"));
+  }
+
+  $(document).on("scroll", function() {
+    if ($(window).width() > 530) {
+      if ($(document).scrollTop() > menuH) {
+        $(".logo").addClass("logo_scroll");
+        $("#header").css("height", (menuH * .7) + "px");
+
+        $("#header .menu ul").css("margin", "-15px 0 0 0");
+        $("#header .menu a").css("font-size", "19px");
+
+        //$("#header_button_block").css("height", "50px");
+
+
+      } else {
+        $(".logo").removeClass("logo_scroll");
+        $("#header").css("height", menuH + "px");
+        //$("#header_button_block").css("height", "90px");
+        $("#header .menu ul").css("margin", "0px 0 0 0");
+        $("#header .menu a").css("font-size", "21px");
+      }
+
+    }
+    if (($(document).scrollTop() > menuH) && ($(window).width() > 775)) {
+      $("#header_button_block").css("height", "50px");
+    } else if ($(window).width() > 775) {
+      $("#header_button_block").css("height", "90px");
+    }
+
+    if (($(document).scrollTop() > menuH) && ($(window).width() < 775)) {
+      $("#header_button_block").addClass('small_mob');
+    } else if ($(window).width() < 775) {
+      $("#header_button_block").removeClass('small_mob');
+    }
+
+
+
+
+
+  });
+
+
+});

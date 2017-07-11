@@ -1,0 +1,301 @@
+body:not(.home) #header {
+  margin-top: -190px;
+}
+
+
+#header_button_block {
+  line-height: 90px;
+
+  position: relative;
+
+  display: inline-block;
+
+  box-sizing: border-box;
+  width: 100%;
+  height: 90px;
+  margin-top: 5px;
+
+  transition: all .5s;
+  vertical-align: middle;
+
+  background-color: #fff;
+  &:before {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: inline-block;
+
+    content: '';
+
+    opacity: .5;
+    background: url(../images/slider/slide-1.jpg) 50% 50% no-repeat;
+    background-size: auto 450px;
+  }
+  &:after {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: inline-block;
+
+    content: '';
+
+    background: rgba(0, 0, 0, .4);
+  }
+}
+
+#header_button__title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+
+  position: absolute;
+  z-index: 3;
+  top: calc(50% - 20px);
+  left: 25px;
+
+  display: inline-block;
+
+  height: 40px;
+
+  transition: all .5s;
+  text-align: left;
+  vertical-align: middle;
+
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, .15);
+}
+
+#header___button {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 40px;
+
+  position: absolute;
+  z-index: 3;
+  top: calc(50% - 20px);
+  right: 25px;
+
+  display: inline-block;
+
+  height: 40px;
+  padding: 0 35px;
+
+  transition: all .5s;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: #fff;
+  background: #ddb103;
+  &:hover {
+    color: rgba(0, 0, 0, .65);
+    background: #f2be04;
+    text-shadow: none;
+  }
+}
+
+
+.small_mob {
+  transition: all .5s;
+  #header_button__title {
+    font-size: 0;
+
+    height: 0;
+    margin: 0;
+
+    transition: all .5s;
+
+    opacity: 0;
+  }
+  #header___button {
+    margin-top: 0;
+
+    transition: all .5s;
+  }
+}
+
+
+@media (min-width: 530px) {
+  body.home {
+    #header_button_block {
+      //display: none;
+      height: 0;
+      &.opened {
+        height: 50px;
+      }
+      &.hidden {
+        overflow: hidden;
+
+        height: 0;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 1160px) {
+  #header {
+    height: auto !important;
+  }
+  .not___home #header {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 870px) {
+  #header_button__title {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 775px) {
+  #header_button_block {
+    height: auto;
+    padding: 15px;
+
+    text-align: center;
+  }
+  #header_button__title {
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    height: auto;
+    margin: 0 auto 15px auto;
+
+    text-align: center;
+  }
+  #header___button {
+    position: relative;
+    top: 0;
+    right: 0;
+
+    display: inline-block;
+    //float: right;
+
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 700px) {
+  #content .page.schufa .block .text h4 {
+    margin-bottom: 15px;
+  }
+  #header .menu-link {
+    margin: 22px 12px 0 0 !important;
+  }
+}
+
+@media (max-width: 530px) {
+  body.home {
+    #header_button_block {
+      display: inline-block;
+    }
+    #slider {
+      display: none !important;
+    }
+    #content {
+      padding-top: 35px;
+      .table {
+        margin-top: 0;
+      }
+    }
+  }
+  #header .menu-link {
+    margin: 12px 12px 0 0 !important;
+  }
+  #header .logo {
+    margin: 0 0 0 0 !important;
+    a {
+      width: 118px;
+      height: 51px;
+
+      background-size: cover;
+    }
+  }
+
+  #header_button__title {
+    display: none;
+  }
+  #header___button {
+    //z-index: 1;
+    font-size: 0;
+
+    position: relative;
+
+    width: 80%;
+    //min-width: 300px;
+    height: 40px;
+    padding: 0;
+    &:before {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 23px;
+      line-height: 40px;
+
+      position: absolute;
+      z-index: 4;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+
+      display: inline-block;
+
+      content: 'Kreditchancen prüfen';
+      vertical-align: middle;
+      text-decoration: none;
+      text-transform: uppercase;
+
+      color: #fff;
+      background: #ddb103;
+      text-shadow: 1px 1px 0 rgba(0, 0, 0, .15);
+    }
+    &:focus,
+    &:active,
+    &:hover {
+      color: transparent;
+      &:before {
+        color: rgba(0, 0, 0, .65);
+        background: #f2be04;
+        text-shadow: none;
+      }
+    }
+  }
+
+  .small_mob {
+    #header___button {
+      margin-bottom: 0;
+      &:after {
+        font-size: 0;
+
+        top: -5px;
+        bottom: auto;
+
+        height: 0;
+
+        transition: all .3s;
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  #header___button {
+    width: 100%;
+    &:before {
+      font-size: 21px;
+    }
+  }
+}

@@ -1,0 +1,512 @@
+/*
+Theme Name: Enki
+Theme URI: http://upsidethemes.net/demo/enki/
+Author: Kopatheme
+Author URI: https://kopatheme.com
+Description: Enki is a Multipurpose WordPress Theme coming with many professional and well-designed homepage options which can cater many different website needs, including Architect, Business, Corporate, Creative, Freelancer, Shop and Magazine.
+Version: 1.0.5
+License: GNU General Public License v3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: two-columns, right-sidebar, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, sticky-post, threaded-comments, translation-ready
+Text Domain: enki
+Requires at least: 4.4
+Tested up to: 4.6
+Domain Path: /languages/
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/**
+ * Table of Contents:
+ *
+
+1. - Global Styles
+2. - Header / #kopa-page-header
+    2.1 - Navigation / #main-nav
+    2.2 - Search / .search-box
+3. - Content 
+    3.1 - Widget
+    3.2 - Home Page
+    3.3 - Sub Page
+    3.4 - Sidebar / .sidebar
+    3.5 - Bottom sidebar / #bottom-sidebar
+4. - Footer / #kopa-page-footer
+
+5. - Responsive
+ 
+ * -----------------------------------------------------------------------------
+ */
+
+/**
+ * 1. Global Styles
+ * ----------------------------------------------------------------------------
+ */
+
+@import "sass/style-globals";
+
+/**
+
+ * 2. Header
+ * -----------------------------------------------------------------------------
+ */
+
+ @import "../sass-modules/header-v-home-1/style";
+ @import "../sass-modules/header-v-home-2/style";
+ @import "../sass-modules/header-v-home-3/style";
+ @import "../sass-modules/header-home-blog/style";
+ @import "../sass-modules/header-h-blog/style";
+ @import "../sass-modules/header-h-home/style";
+ @import "../sass-modules/header-taar-about/style";
+ @import "../sass-modules/header-taar-home/style";
+ @import "../sass-modules/header-tams-home/style";
+ @import "../sass-modules/header-v-home-4/style";
+
+
+ /**
+
+ * 3. sliderpro
+ * -----------------------------------------------------------------------------
+ */
+ 
+ @import "../sass-modules/slider-v-home-1/style";
+ @import "../sass-modules/slider-v-home-2/style";
+ @import "../sass-modules/slider-v-home-3/style";
+ @import "../sass-modules/slider-v-home-4/style";
+ @import "../sass-modules/slider-v-home-shop/style";
+ @import "../sass-modules/slider-taar-home/style";
+ @import "../sass-modules/slider-tams-home/style";
+ 
+
+ /**
+
+ * 3. service
+ * -----------------------------------------------------------------------------
+ */
+
+ @import "../sass-modules/service-1-v-home-1/style";
+ @import "../sass-modules/service-2-v-home-1/style";
+ @import "../sass-modules/service-1-v-home-2/style";
+ @import "../sass-modules/service-1-v-home-3/style";
+
+ /**
+
+ * 3. intro
+ * -----------------------------------------------------------------------------
+ */
+
+ @import "../sass-modules/intro-1-v-home-1/style";
+ @import "../sass-modules/intro-2-v-home-1/style";
+ @import "../sass-modules/intro-1-v-home-2/style";
+ @import "../sass-modules/intro-1-v-home-3/style";
+ @import "../sass-modules/intro-2-v-home-2/style";
+ @import "../sass-modules/intro-3-v-home-2/style";
+ @import "../sass-modules/intro-1-v-home-4/style";
+ @import "../sass-modules/intro-1-v-about/style";
+
+ /**
+
+ * 3. portfolio
+ * -----------------------------------------------------------------------------
+ */
+
+ @import "../sass-modules/portfolio-1-v-home-1/style";
+ @import "../sass-modules/portfolio-1-v-home-2/style";
+ @import "../sass-modules/portfolio-1-v-home-3/style";
+ @import "../sass-modules/portfolio-2-v-home-3/style";
+ @import "../sass-modules/portfolio-1-v-home-4/style";
+ @import "../sass-modules/portfolio-1-v-home-blog/style";
+ @import "../sass-modules/portfolio-1-v-portfolio-2/style";
+ @import "../sass-modules/single-portfolio-1/style";
+ @import "../sass-modules/single-portfolio-2/style";
+ @import "../sass-modules/single-portfolio-4/style";
+ @import "../sass-modules/single-portfolio-5/style";
+
+/**
+
+ * 3. testimonial
+ * -----------------------------------------------------------------------------
+ */
+
+ @import "../sass-modules/testimonial-1-v-home-1/style";
+ @import "../sass-modules/testimonial-1-v-home-2/style";
+ @import "../sass-modules/testimonial-1-v-home-3/style";
+
+ /**
+
+ * 3. countup
+ * -----------------------------------------------------------------------------
+ */
+
+ @import "../sass-modules/element-sc-countup-3/style";
+ @import "../sass-modules/element-sc-countup-1/style";
+ @import "../sass-modules/element-sc-countup-5/style";
+ @import "../sass-modules/element-sc-countup-4/style";
+ @import "../sass-modules/element-sc-countup-2/style";
+
+ /**
+
+ * 3. pricing table
+ * -----------------------------------------------------------------------------
+ */
+
+  @import "../sass-modules/pricing-table-v-home-1/style";
+
+/**
+
+* 3. newsletters
+* -----------------------------------------------------------------------------
+*/
+
+ @import "../sass-modules/newsletter-1-v-home-1/style";
+
+/**
+
+* 3. contact
+* -----------------------------------------------------------------------------
+*/
+
+@import "../sass-modules/contact-1-v-home-1/style";
+@import "../sass-modules/contact-module-v-contact/style";
+@import "../sass-modules/text-v-contact/style";
+@import "../sass-modules/text-home-shop/style";
+
+/**
+
+* 3. instagram
+* -----------------------------------------------------------------------------
+*/
+
+@import "../sass-modules/instagram-1-v-home-1/style";
+
+/**
+
+* 3. footer
+* -----------------------------------------------------------------------------
+*/
+
+@import "../sass-modules/footer-v-home-1/style";
+@import "../sass-modules/footer-v-home-2/style";
+@import "../sass-modules/footer-v-blog-creative/style";
+@import "../sass-modules/footer-v-home-4/style";
+@import "../sass-modules/footer-shop-categories/style";
+@import "../sass-modules/newletters-v-home-shop/style";
+
+/**
+
+* 3. social
+* -----------------------------------------------------------------------------
+*/
+
+@import "../sass-modules/social-twitter-v-home-2/style";
+
+/**
+
+* 3. client
+* -----------------------------------------------------------------------------
+*/
+
+@import "../sass-modules/element-sc-client-1/style";
+@import "../sass-modules/element-sc-client-5/style";
+@import "../sass-modules/element-sc-client-2/style";
+@import "../sass-modules/element-sc-client-3/style";
+@import "../sass-modules/element-sc-client-4/style";
+
+/**
+
+* 3. team
+* -----------------------------------------------------------------------------
+*/
+
+@import "../sass-modules/team-v-home-2/style";
+@import "../sass-modules/team-list-1-v-team/style";
+@import "../sass-modules/team-list-2-v-team/style";
+
+/**
+
+* 3. article
+* -----------------------------------------------------------------------------
+*/
+
+@import "../sass-modules/article-list-1-v-home-2/style";
+@import "../sass-modules/article-list-2-v-blog-creative/style";
+@import "../sass-modules/article-list-1-v-home-blog/style";
+
+/**
+
+* 3. ads
+* -----------------------------------------------------------------------------
+*/
+
+@import "../sass-modules/ads-1-v-home-3/style";
+@import "../sass-modules/ads-1-v-blog-creative/style";
+
+/**
+
+* 3. form contact
+* -----------------------------------------------------------------------------
+*/
+
+@import "../sass-modules/form-contact-v-home-4/style";
+@import "../sass-modules/form-single-cmt-v-single-post/style";
+
+/**
+
+* 3. breakrum
+* -----------------------------------------------------------------------------
+*/
+
+@import "../sass-modules/breadcrumb-1-v-shortcode/style";
+
+/**
+
+* 3. blog list
+* -----------------------------------------------------------------------------
+*/
+
+@import "../sass-modules/blog-list-v-blog-creative/style";
+@import "../sass-modules/article-list-1-v-blog-creative/style";
+@import "../sass-modules/blog-list-v-blog-small-image/style";
+@import "../sass-modules/blog-list-v-blog-large-image/style";
+@import "../sass-modules/blog-list-v-home-blog/style";
+
+/**
+
+* 3. widget-text
+* -----------------------------------------------------------------------------
+*/
+
+@import "../sass-modules/text-about-1-v-blog-creative/style";
+
+/**
+
+* 3. carousel
+* -----------------------------------------------------------------------------
+*/
+
+@import "../sass-modules/carousel-1-v-home-blog/style";
+
+/**
+
+* 3. single post
+* -----------------------------------------------------------------------------
+*/
+
+@import "../sass-modules/single-content-v-single-post/style";
+@import "../sass-modules/single-tag-v-single-post/style";
+@import "../sass-modules/single-author-v-single-post/style";
+@import "../sass-modules/single-cmt-list-v-single-post/style";
+@import "../sass-modules/single-next-prev-v-single-post/style";
+
+/**
+
+* 3. map
+* -----------------------------------------------------------------------------
+*/
+
+@import "../sass-modules/map-v-contact/style";
+
+/**
+* 3. 404
+* -----------------------------------------------------------------------------
+*/
+
+@import "../sass-modules/404/style";
+
+/**
+* 3. shop
+* -----------------------------------------------------------------------------
+*/
+
+@import "../sass-modules/shop-default-list-1/style";
+@import "../sass-modules/shop-default-list-2/style";
+@import "../sass-modules/shop-default-cat-1/style";
+@import "../sass-modules/shop-default-tag/style";
+@import "../sass-modules/shop-service/style";
+@import "../sass-modules/shop-list-1/style";
+@import "../sass-modules/shop-list-2/style";
+@import "../sass-modules/shop-list-3/style";
+@import "../sass-modules/shop-list-4/style";
+
+@import "../sass-modules/shopping-cart/style";
+@import "../sass-modules/shop-product/style";
+@import "../sass-modules/type-product-cart-1/style";
+@import "../sass-modules/type-product-check-out-1/style";
+@import "../sass-modules/type-product-shop-my-account-1/style";
+@import "../sass-modules/type-product-shop-order-detail-1/style";
+
+/**
+* 3. extra
+* -----------------------------------------------------------------------------
+*/
+@import "sass/extra";
+
+/**
+* 3. responsive
+* -----------------------------------------------------------------------------
+*/
+
+@import "sass/responsive";
+
+/*--- Firefox ---*/ 
+@-moz-document url-prefix() {
+	body{
+		font-weight: 300;
+	}
+	#bottom-sidebar-1{
+        .widget_archive,.widget_categories label{
+            font-weight: 300;
+        }
+    }
+    .widget-title.style-06{
+        font-weight: 300;
+    }
+    .widget-sub-title {
+        font-weight: 300;
+    }
+    .enki-blockquote.style-04 h3{
+        font-weight: 300;
+    }
+    .enki-progress.style-01 .enki-progress-item .enki-progress-title span{
+        font-weight: 300;
+    }
+    .enki-progress.style-02 .enki-progress-item .enki-progress-title span{
+        font-weight: 300;
+    }
+    .enki-progress.style-03 .enki-progress-item .enki-progress-title span{
+        font-weight: 300;
+    }
+    .enki-progress.style-04 .enki-progress-item .enki-progress-title span{
+        font-weight: 300;
+    }
+    .enki-progress.style-05 .enki-progress-item .enki-progress-title span{
+        font-weight: 300;
+    }
+    .enki-progress.style-06 .enki-progress-item .enki-progress-title span{
+        font-weight: 300;
+    }
+    .enki-module-table.style-04 .widget-content th, .enki-module-table.style-04 .widget-content td{
+        font-weight: 300;
+    }
+    .enki-module-portfolio.style-07 .widget-header-wrapper .widget-header-right h3{
+        font-weight: 300;
+    }
+    .enki-module-service.style-07 .enki-module-service-left h5{
+        font-weight: 300;
+    }
+    .woocommerce ul.products li a.add_to_cart_button{
+        font-weight: 300;
+    }
+    .woocommerce.enki_modul_type_product_shop_single .summary .cart .single_add_to_cart_button{
+        font-weight: 300;
+    }
+    .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{
+        font-weight: 300;
+    }
+    .woocommerce.widget_shopping_cart p.buttons a{
+        font-weight: 300;
+    }
+}
+
+.single-entry-item .enki-blockquote.style-02{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    padding: 5px 0px;
+    padding-bottom: 0px;
+    padding-left: 39px;
+    position: relative;
+    border: 0px;
+    &:before{
+        content:"";
+        position: absolute;
+        height: 100%;
+        width: 4px;
+        @extend %main_bg_color;
+        left: 0px;
+        top: 0px;
+    }
+    h3{
+        margin-bottom: 0px;
+        font-size: 26px;
+        line-height: 41px;
+        font-style: italic;
+        letter-spacing: 0.2px;
+        text-transform: inherit;
+        font-family: $font-support;
+        font-weight: 400;
+    }
+}
+.single-post-author .author-content-wrap header h5{
+    margin: 0px;
+}
+.enki-module-form.style-02 .widget-content form textarea[placeholder]{
+    padding-top: 7px;
+}
+@media screen and (max-width: 1920px) {
+    .enki-module-portfolio.style-08 .entry-item .entry-content{
+        padding-top: 175px;
+    }
+    .enki-module-portfolio.style-08 .entry-item .entry-content{
+        padding-top: 175px;
+    }
+}
+@media screen and (max-width: 1550px) {
+    .enki-module-portfolio.style-08 .entry-item .entry-content{
+        padding-top: 60px;
+    }
+    .enki-module-portfolio.style-08 .entry-item .entry-content{
+        padding-top: 60px;
+    }
+}
+.woocommerce.widget_shopping_cart p.buttons a{
+    font-size: 13px;
+    line-height: 13px;
+    text-transform: normal;
+    text-align: center;
+    padding: 12px 13px;
+}
+.woocommerce .widget_shopping_cart .total strong, .woocommerce.widget_shopping_cart .total strong{
+    font-weight: 600;
+}
+
+.enki-module-testimonial .entry-item .entry-content .enki-social{
+	&.enki-social-layout-one-col{
+		.enki-social-content{			
+			width: 200px;
+			margin-bottom: 15px;
+
+			&:last-child{
+				margin-bottom: 0px;
+			}
+		}
+	}
+}
+
+
+/**
+ * Custom
+ * -------------------------------------------------------------------
+ */
+
+.enki_row_1{
+    margin-top: -30px !important;
+    > * {
+        margin-top: 30px !important; 
+    }
+}
+
+
+.enki-module-table.style-04{
+    @media screen and (max-width: 479px){ 
+        * {
+            display: block;
+            width: 100%;
+        }
+    }
+}
+
+button.enki-btn.enki-icon-left i, a.enki-btn.enki-icon-left i{
+    border-width: 1px;
+}

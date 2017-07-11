@@ -1,0 +1,41 @@
+#setting-error-enki {
+  display: block; }
+
+#enki-thumb,
+#enki-icon,
+.manage-column.column-enki-thumb,
+.manage-column.column-enki-icon {
+  width: 40px;
+  text-align: center; }
+
+.enki-thumb.column-enki-thumb img {
+  display: block;
+  width: 36px;
+  height: 36px;
+  padding: 1px;
+  background-color: #fafafa;
+  border: 1px solid #e5e5e5; }
+
+.enki-icon.column-enki-icon {
+  text-align: center; }
+  .enki-icon.column-enki-icon i {
+    display: block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    color: #666; }
+
+.kpb-form-inner .kopa_screenshot img {
+  max-width: 300px !important; }
+.kpb-form-inner .kpb-tab-content input[type=number] {
+  display: block;
+  width: 100px; }
+.kpb-form-inner .kopa-framework-gallery {
+  width: 50%; }
+
+.kpb-ui-text {
+  width: 100%; }
+
+.kopa_section_select_font .wp-picker-container {
+  display: none; }

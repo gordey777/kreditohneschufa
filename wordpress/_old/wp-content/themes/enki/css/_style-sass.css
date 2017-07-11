@@ -1,0 +1,18 @@
+/*--- Color Alert ---*/
+/*--- Color Pricing Table ---*/
+/*--- Color Progress Bar ---*/
+/*--- Color Button ---*/
+/*--- Color Icons ---*/
+/*--- Color Hightligh Text ---*/
+/*--- Color Testimonial ---*/
+::selection {
+  background: #ddb103;
+  color: #fff;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: #ddb103;
+  color: #fff;
+  text-shadow: none;
+}
